@@ -1,0 +1,25 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(53, 53, 53);
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://cdn.pixabay.com/photo/2017/02/07/09/02/wood-2045379_1280.jpg");
+}
+
+button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.playground-container {
+  margin: 100px 100px;
+  display: grid;
+  justify-content: center;
+  gap: 20px;
+}

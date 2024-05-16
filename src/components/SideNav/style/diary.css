@@ -1,0 +1,25 @@
+button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.diary-date-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  padding: 20px;
+  color: white;
+  border-top: 0.5px solid rgb(64, 64, 64);
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.parallelogram {
+  clip-path: polygon(100% 0%, 95% 50%, 100% 100%, 8% 100%, 0% 50%, 8% 0%);
+}
